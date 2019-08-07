@@ -1,0 +1,33 @@
+<resources>
+
+    <string name="app_name">S&amp;Play</string>
+    <string name="chooser_title">Lorem ipsum</string>
+    <string name="choose_file">Select a file</string>
+    <string name="internal_storage">Internal storage</string>
+    <string name="empty_directory">Empty Directory</string>
+    <string name="storage_removed">Storage was removed or unmounted.</string>
+    <string name="error_selecting_file">Error selecting File</string>
+    <string name="nesteaplicativo">Neste aplicativo você será capaz de legendar seus videoclipes favoritos.</string>
+    <string name="subplay">Subtitle \u0026 Play</string>
+    <string name="legCB">Caso você já tenha copiado a letra antes de iniciar o aplicativo.</string>
+    <string name="legnet">Se você ainda não copiou a letra do seu videoclipe.</string>
+
+    <string name="subtit_1">Seja bem-vindo ao S\u0026Play! Este aplicativo tem como objetivo gerar legendas dos seus
+    vídeos favoritos. Após feito sua legenda, ela será salva na pasta /SPlay/Legendas/</string>
+
+    <string name="subtit_2">1. Você deve ter o vídeo que deseja fazer a legenda no seu celular,
+        nos arquivos ".3gp",".mp4", ".wmv" ou ".avi"</string>
+
+    <string name="subtit_3">2. Ao iniciar o aplicativo, selecione o botão "Video da Galeria", Fig.1</string>
+
+    <string name="subtit_4">3. Irá abrir uma tela como na Fig.2</string>
+
+    <string name="subtit_5">4. Para ativar a Memória Interna clique como Fig.3</string>
+
+    <string name="subtit_6">5. Ao clicar no item </string>
+
+    <string name="subtit_7">Você poderá escolher onde desejas procurar o vídeo, após encontrado, basta selecioná-lo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

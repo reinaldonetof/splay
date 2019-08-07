@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    tools:context="studio.rcs.com.splayv2.AreaLegenda">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="@string/legCB"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_alignBottom="@+id/butLegCB"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="61dp" />
+
+    <Button
+        android:id="@+id/butLegCB"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:background="@drawable/buttonshape"
+
+        android:onClick="clickLegCB"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="5"
+        android:text="Letra para Colar"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="130dp" />
+
+    <TextView
+        android:id="@+id/textViewLegNet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="@string/legnet"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="62dp"
+        android:layout_alignBottom="@+id/butLegNet"
+        android:layout_alignParentStart="true"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/butLegNet"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:background="@drawable/buttonshape"
+
+        android:onClick="clickLegNet"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="5"
+        android:text="Procurar Letra na Internet"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="320dp"
+        android:visibility="invisible"/>
+
+</RelativeLayout>

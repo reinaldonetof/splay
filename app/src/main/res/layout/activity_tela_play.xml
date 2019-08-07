@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="studio.rcs.com.splayv2.TelaPlay"
+    >
+
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:visibility="invisible">
+
+        <VideoView
+            android:id="@+id/VideoFrame"
+            android:layout_width="match_parent"
+            android:layout_height="350dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="430dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical">
+
+            <VideoView
+                android:id="@+id/videoView2"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/letraatual"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:lines="2"
+                android:text=""
+                android:textColor="#f2eeee"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@+id/linearLayout"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/botaoinicio"
+                android:onClick="startar"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="45dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/botaoforma"
+                android:radius="100dp"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="5"
+                android:text="Inicio"
+                android:textColor="@android:color/holo_purple"
+                android:textSize="20sp"
+                android:visibility="invisible"/>
+
+            <Button
+                android:id="@+id/botaoinicioMesmo"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="45dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/botaoforma"
+                android:onClick="inicio"
+                android:radius="100dp"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="5"
+                android:text="Inicio"
+                android:textColor="@android:color/holo_purple"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/botaofinal"
+                android:onClick="finallegenda"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="45dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/botaoforma"
+                android:radius="100dp"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="5"
+                android:text="Fim"
+                android:textColor="@android:color/holo_purple"
+                android:textSize="20sp"
+                android:visibility="invisible"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_below="@+id/linearLayout3">
+
+            <TextView
+                android:id="@+id/letraapos"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:lines="2"
+                android:text="sadasdasdasdasdasd"
+                android:textAlignment="center"
+                android:textColor="#a7a5a5"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+
+
+
+</RelativeLayout>
